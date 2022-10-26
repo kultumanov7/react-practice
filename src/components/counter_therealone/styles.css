@@ -1,0 +1,21 @@
+.all {
+  font-size: 25px;
+  color: blue;
+  background: green;
+}
+
+.counter {
+  font-size: 50px;
+  color: sandybrown;
+  background: aliceblue;
+}
+
+.decrease,
+.increase {
+  font-size: 40px;
+  width: 200px;
+  height: 120px;
+  border: 1px dashed blue;
+  padding: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.calc {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    /* margin: 0 auto; */
+    justify-items: center;
+    align-items: center;
+    gap: 0.5px;
+}
+
+.oper {
+    background: gray;
+    color: white;
+    font-size: 60px;
+    display: block;
+    width: 200px;
+    height: 100px;
+}
+
+.oper:hover {
+    background: blue;
+    color: gray;
+}
+
+.res {
+    background: gray;
+    color: black;
+    font-size: 100px;
+}
